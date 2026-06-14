@@ -1,0 +1,10 @@
+[Unit]
+Description=FtR Project NingChat Server Service
+[Service]
+Type=simple
+Restart=always
+RestartSec=5s
+WorkingDirectory=/var/www/ningchat_quan_usr/data/www/ningchat.quanthai.net
+ExecStart=/var/www/ningchat_quan_usr/data/www/ningchat.quanthai.net/bin/ningchat production
+[Install]
+WantedBy=multi-user.target
