@@ -21,7 +21,7 @@ stop:
 	sudo systemctl stop ningchat
 
 restart:
-	sudo sytemctl restart ningchat
+	sudo systemctl restart ningchat
 
 status:
 	sudo systemctl status ningchat
